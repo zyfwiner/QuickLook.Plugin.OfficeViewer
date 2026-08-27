@@ -41,7 +41,7 @@ public class Plugin : IViewer
 
     public void Prepare(string path, ContextObject context)
     {
-        context.SetPreferredSizeFit(new Size { Width = 1920, Height = 1440 }, 0.9d);
+        context.SetPreferredSizeFit(new Size { Width = 1000, Height = 1200 }, 0.9d);
     }
 
     public void View(string path, ContextObject context)
